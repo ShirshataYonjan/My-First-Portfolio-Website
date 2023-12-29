@@ -8,6 +8,7 @@ a{
 .container{
     display: flex;
 justify-content: space-between;
+align-items: center;
 
 }
 .nav{
@@ -36,3 +37,16 @@ header{
 body{
     margin: 0;
 }
+
+.sub-menu{
+    background: #a8a7a7;
+    border-radius: 0 0 4px 4px;
+    padding: 15px;
+    position: absolute;
+    display:none;
+
+}
+.nav li:hover ul{
+    display: block;
+}
+
